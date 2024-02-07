@@ -9,7 +9,7 @@ header,footer{
     position: fixed;
     background-color: rgb(10, 10, 10);
     width:100%;
-    color: rgb(221, 198, 198);
+    color: rgb(207, 183, 183);
 }
 header h1{
     position: fixed;
@@ -18,7 +18,7 @@ header h1{
 }
 header {
     height: 10vh;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(20, 19, 19);
 }
 footer{
     height:10vh;
@@ -27,7 +27,7 @@ footer{
 }
 footer h1{
     position: fixed;
-    left: 35%;
+    left: 34%;
 }
 #htxt {
     font-size: 60px
@@ -41,9 +41,13 @@ footer h1{
 }
 .nav a{
     position: relative;
-    left:45%;
-    top: 35px;
+    left:40%;
+    top: 39px;
     color: rgb(231, 220, 220);
     text-decoration: none;
     margin-right: 60px;
+}
+
+.flex-container {
+    display: flex;
 }
